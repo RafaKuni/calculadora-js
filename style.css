@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    padding: 20px;
+    background-image: linear-gradient(to right top, #051937, #212357, #4a2871, #7b2383, #af008a); ;
+    height: 100vh;
+    color: #ffff;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 35px;
+    transition: 1s;
+}
+
+
+.btn{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+    margin: 3px;
+    text-shadow: 0 0 1px #000;
+    border-radius: 10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#btn1{background-color: #936fbc;} #btn1:hover{background-color: #936fbc7e;}
+#btn2{background-color: #499acf;} #btn2:hover{background-color: #4999cf80;}
+#btn3{background-color: #de5bcc;} #btn3:hover{background-color: #de5bcd81;}
+#btn4{background-color: #4cc0c0;} #btn4:hover{background-color: #4cc0c080;}
+#btn5{background-color: #d2691e;} #btn5:hover{background-color: #d2691e7c;}
+#btn6{background-color: #228e1f;} #btn6:hover{background-color: #238e1f81;}
+#btn7{background-color: #c22020;} #btn7:hover{background-color: #c2202084;}
+
+.btn:hover{
+    background-color: #ffffff7a;
+}
+
+#resultado{
+    width: 212px;
+    background-color: #fff;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: #000;
+    border-radius: 10px;
+    text-align: right;
+    padding: 5px;
+    cursor: default;
+}
+
+footer{
+    background-color:#131313;
+    color: #fff;
+    font-size: x-large;
+    line-height: 155%;
+    padding: 15px 45px 14px 45px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
